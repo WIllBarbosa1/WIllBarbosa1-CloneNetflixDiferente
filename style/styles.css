@@ -4,7 +4,7 @@
     --vermelho: #E50914;
     --preto: #141414;
     --cinza: #AAA;
-    --cinza-claro: #FFF;
+    --braco: #FFF;
 }
 
 /* CSS reset */
@@ -21,16 +21,17 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 1%;
     font-family: 'Press Start 2P', cursive;
 }
 
 header .logo{
-    font-size: 40px;
+    font-size: 250%;
     color: var(--vermelho);
 }
 
 header nav a{
+    transition: .3s ease all;
     text-decoration: none;
     font-size: small;
     margin-right: 10px;
@@ -38,24 +39,22 @@ header nav a{
 }
 
 header nav a:hover{
-    color: var(--cinza-claro);    
+    color: var(--braco);    
 }
 
 body{
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
-    color: var(--cinza-claro);
+    color: var(--braco);
 }
 
 /* Filme principal */
 
 .toku-principal{
-    font-size: 16px;
+    font-size: 100%;
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url("../img/jaspion-capa.jpg");
-    
     height: 400px;
     background-size: cover;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,9 +62,31 @@ body{
 }
 
 .toku-principal .descricao{
-    margin-bottom: 90px;
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
 
 .titulo{
+    margin-top: 10%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    border: none;
+    padding: 1% 2%;
+    margin-right: 1%;
+    font-size: 12px;
+    color: var(--cinza);
+    background-color: rgba(0,0,0,0.50);
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    color: var(--preto);
+    background-color: var(--braco);
+}
+
+.botao i{
+    margin-right: 10px;
 }
