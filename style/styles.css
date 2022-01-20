@@ -1,7 +1,45 @@
-body{
-    background-color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #AAA;
+    --cinza-claro: #FFF;
 }
 
-.container{
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header .logo{
+    font-size: 40px;
+    color: var(--vermelho);
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: small;
+    margin-right: 10px;
+    color: var(--cinza);
+}
+
+header nav a:hover{
+    color: var(--cinza-claro);    
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
 }
