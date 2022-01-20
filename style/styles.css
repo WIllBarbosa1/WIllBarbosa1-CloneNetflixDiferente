@@ -64,6 +64,7 @@ body{
 .toku-principal .descricao{
     margin-bottom: 2%;
     margin-top: 1%;
+    width: 100%;
 }
 
 .toku-principal .container{
@@ -104,4 +105,8 @@ body{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-calssicos{
+    margin-top: 1%;
 }

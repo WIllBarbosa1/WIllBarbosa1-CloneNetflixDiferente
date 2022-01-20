@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px){
+    header .container{
+        display: flex;
+        flex-direction: column;    
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .toku-principal .descricao{
+        width: 50%;
+    }
+    
+}
