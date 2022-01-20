@@ -33,7 +33,7 @@ header .logo{
 header nav a{
     transition: .3s ease all;
     text-decoration: none;
-    font-size: small;
+    font-size: 12px;
     margin-right: 10px;
     color: var(--cinza);
 }
@@ -51,9 +51,9 @@ body{
 /* Filme principal */
 
 .toku-principal{
-    font-size: 100%;
-    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url("../img/jaspion-capa.jpg");
+    font-size: medium;
     height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url("../img/jaspion-capa.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -64,6 +64,11 @@ body{
 .toku-principal .descricao{
     margin-bottom: 2%;
     margin-top: 1%;
+}
+
+.toku-principal .container{
+    width: 70%;
+    text-align: justify;
 }
 
 .titulo{
@@ -89,4 +94,8 @@ body{
 
 .botao i{
     margin-right: 10px;
+}
+
+.container{
+    margin-left: 2%;
 }
